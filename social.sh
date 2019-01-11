@@ -12,6 +12,9 @@ sites=(
 	"https://www.twitter.com"
 	"https://www.youtube.com/user"
 	"https://www.reddit.com/user"
+	"https://www.pinterest.com"
+	"https://www.github.com"
+	"https://www.patreon.com"
 )
 
 for site in "${sites[@]}"
