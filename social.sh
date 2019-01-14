@@ -1,5 +1,12 @@
 #!/bin/bash
 #sunjester
+
+if [ $# -eq 0 ]
+	then
+	echo "No username supplied"
+	exit 1
+fi
+
 echo "checking for username: "$@
 
 RED=`tput setaf 1`
